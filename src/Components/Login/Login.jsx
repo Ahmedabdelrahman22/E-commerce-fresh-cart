@@ -91,7 +91,6 @@ export default function Login() {
                 }
 
               
-               <button className="text-white bg-emerald-500 hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-embg-emerald-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 mx-2 text-center dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-embg-emerald-800"><Link to={"/forgotPasswords"}>forgot Password</Link></button>
 
             </form>
         </div>
