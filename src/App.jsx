@@ -23,7 +23,6 @@ import AllOrders from './Components/AllOrders/AllOrders.jsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import Wishlist from './Components/Wishlist/Wishlist.jsx'
-import ForgorPasswords from './Components/ForgorPasswords/ForgorPasswords.jsx'
 
 
 let routers = createBrowserRouter([
@@ -38,7 +37,6 @@ let routers = createBrowserRouter([
       { path: 'checkout', element: <ProtectedRoute><CheckOut /></ProtectedRoute> },
       { path: 'allorders', element: <ProtectedRoute><AllOrders /></ProtectedRoute> },
       { path: 'ProductDetails/:id', element: <ProtectedRoute><ProductDetails /></ProtectedRoute> },
-      { path: 'forgotpasswords', element: <ProtectedRoute><ForgorPasswords /></ProtectedRoute> },
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
       { path: '*', element: <Notfound /> },
